@@ -17,7 +17,7 @@ public class HotelService {
     @Autowired
     HotelRepository hotelRepository;
 
-    public void addHotel(Hotel hotel) throws RuntimeException{
+    public void addHotel(Hotel hotel){
         
 
          hotelRepository.addHotel(hotel);
