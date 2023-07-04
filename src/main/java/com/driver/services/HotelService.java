@@ -14,8 +14,8 @@ import com.driver.repositories.HotelRepository;
 
 public class HotelService {
 
-    @Autowired
-    HotelRepository hotelRepository;
+    
+    HotelRepository hotelRepository=new HotelRepository();
 
     public void addHotel(Hotel hotel){
         
